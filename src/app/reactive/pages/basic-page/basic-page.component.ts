@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup } from '@angular/forms';
+import { UntypedFormGroup } from '@angular/forms';
 
 @Component({
   templateUrl: './basic-page.component.html',
@@ -8,7 +8,7 @@ import { FormGroup } from '@angular/forms';
 })
 export class BasicPageComponent {
 
-public myForm: FormGroup = new FormGroup({
+public myForm: UntypedFormGroup = new UntypedFormGroup({
 
 })
 
