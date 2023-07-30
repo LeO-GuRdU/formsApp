@@ -6,7 +6,6 @@ import { BasicPageComponent } from './pages/basic-page/basic-page.component';
 import { DynamicPageComponent } from './pages/dynamic-page/dynamic-page.component';
 import { SwitchesPageComponent } from './pages/switches-page/switches-page.component';
 
-
 @NgModule({
   declarations: [
     BasicPageComponent,
@@ -15,7 +14,7 @@ import { SwitchesPageComponent } from './pages/switches-page/switches-page.compo
   ],
   imports: [
     CommonModule,
-    ReactiveRoutingModule
+    ReactiveRoutingModule,
   ]
 })
 export class ReactiveModule { }

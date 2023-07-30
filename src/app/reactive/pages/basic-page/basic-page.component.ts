@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   templateUrl: './basic-page.component.html',
   styles: [
   ]
 })
-export class BasicPageComponent implements OnInit {
+export class BasicPageComponent {
 
-  constructor() { }
+public myForm: FormGroup = new FormGroup({
 
-  ngOnInit(): void {
-  }
+})
 
 }
